@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Xcode — user-specific state
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+
+# Xcode — build artifacts
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+# Keep Package.resolved committed so collaborators get pinned versions.
+
+# CocoaPods (uncomment if you adopt it)
+# Pods/
+
+# Carthage (uncomment if you adopt it)
+# Carthage/Build/
+
+# Fastlane (uncomment if you adopt it)
+# fastlane/report.xml
+# fastlane/Preview.html
+# fastlane/screenshots/**/*.png
+# fastlane/test_output
+
+# Secrets — Firebase config (extractable from shipped app, but no need to publish it)
+GoogleService-Info.plist
+
+# Generic secret files — keep them out by default
+*.env
+.env
+.env.*
+Secrets.swift
+secrets.xcconfig
